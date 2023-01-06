@@ -22,13 +22,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 30 <= anon < 40:
         bar = "━━━⬤──────"
     elif 40 <= anon < 50:
-        bar = " ━━━━⬤─────"
+        bar = "━━━━⬤─────"
     elif 50 <= anon < 60:
-        bar = "━━━━━⬤──── "
+        bar = "━━━━━⬤────"
     elif 60 <= anon < 70:
         bar = "━━━━━━⬤───"
     elif 70 <= anon < 80:
-        bar = " ━━━━━━━⬤──"
+        bar = "━━━━━━━⬤──"
     elif 80 <= anon < 95:
         bar = "━━━━━━━━⬤─"
     else:
@@ -81,13 +81,13 @@ def telegram_markup_timer(_, chat_id, played, dur):
     elif 30 <= anon < 40:
         bar = "━━━⬤──────"
     elif 40 <= anon < 50:
-        bar = " ━━━━⬤─────"
+        bar = "━━━━⬤─────"
     elif 50 <= anon < 60:
-        bar = "━━━━━⬤──── "
+        bar = "━━━━━⬤────"
     elif 60 <= anon < 70:
         bar = "━━━━━━⬤───"
     elif 70 <= anon < 80:
-        bar = " ━━━━━━━⬤──"
+        bar = "━━━━━━━⬤──"
     elif 80 <= anon < 95:
         bar = "━━━━━━━━⬤─"
     else:
