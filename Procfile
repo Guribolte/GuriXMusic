@@ -1,2 +1,2 @@
 web: python -m http.server $PORT 
-worker: python3 -m GuriX
+worker: python3 -m AnonX
