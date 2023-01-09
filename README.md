@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph//file/f29b15b0436b2f05d8704.jpg">
+  <img src="https://telegra.ph//file/e2a332c4222fb05aa14ae.jpg">
 </p>
 
 <p align="center">
@@ -13,9 +13,7 @@
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
  </p> 
 
-<p align="center">
-  <img src="https://telegra.ph//file/070c07f481499a9b5d5f2.jpg">
-</p>
+
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
