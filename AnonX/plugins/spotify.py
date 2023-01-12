@@ -1,6 +1,6 @@
 # dont steal these
-client_id = "817ef3b667ae41fa904568b4eeaee96d"
-client_secret = "8130539ee3cf4b30bc24d2f694a60838"
+client_id = "98c27569652f4b5eb76485f30877ab18"
+client_secret = "868a035ab82a4532b43efbcb615e21e3"
 
 
 import spotipy
