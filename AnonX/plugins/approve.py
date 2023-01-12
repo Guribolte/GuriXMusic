@@ -3,10 +3,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, MONGO_DB_URI, OWNER_ID
-from GuriXMusic import app
-from GuriXMusic.misc import SUDO_USERS as SUDOERS
-from GuriXMusic.plugins.techzbots.database.limitsdb import add_to_approved_user, remove_approved_user, get_approved_users, is_approved
-from GuriXMusic.utils.decorators.language import language
+from AnonX import app
+from AnonX.misc import SUDO_USERS as SUDOERS
+from AnonX.plugins.techzbots.database.limitsdb import add_to_approved_user, remove_approved_user, get_approved_users, is_approved
+from AnonX.utils.decorators.language import language
 
 @app.on_message(
     filters.command("approve") & filters.user(SUDOERS)
