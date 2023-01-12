@@ -3,10 +3,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, MONGO_DB_URI, OWNER_ID
-from YukkiMusic import app
-from YukkiMusic.misc import SUDO_USERS as SUDOERS
-from YukkiMusic.plugins.techzbots.database.limitsdb import add_to_approved_user, remove_approved_user, get_approved_users, is_approved
-from YukkiMusic.utils.decorators.language import language
+from GuriXMusic import app
+from GuriXMusic.misc import SUDO_USERS as SUDOERS
+from GuriXMusic.plugins.techzbots.database.limitsdb import add_to_approved_user, remove_approved_user, get_approved_users, is_approved
+from GuriXMusic.utils.decorators.language import language
 
 @app.on_message(
     filters.command("approve") & filters.user(SUDOERS)
