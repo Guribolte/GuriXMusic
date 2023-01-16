@@ -1,6 +1,6 @@
-from YukkiMusic.core.mongo import mongodb
+from AnonXMusic.core.mongo import mongodb
 from config import OWNER_ID
-from YukkiMusic.misc import SUDO_USERS
+from AnonXMusic.misc import SUDO_USERS
 
 limitsdb = mongodb.limits
 
