@@ -335,7 +335,7 @@ class YouTubeAPI:
                     {
                         "key": "FFmpegExtractAudio",
                         "preferredcodec": "mp3",
-                        "preferredquality": "256",
+                        "preferredquality": "192",
                     }
                 ],
             }
