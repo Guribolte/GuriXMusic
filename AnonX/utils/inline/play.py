@@ -60,8 +60,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(
                 text="+ ᴘʟᴀʏʟɪsᴛ +", callback_data=f"add_playlist {videoid}"
             ),
-            InlineKeyboardButton('SUPPORT', "https://t.me/sharan113baaplogzz"
-            ),
+            InlineKeyboardButton('SUPPORT', "https://t.me/sharan113baaplogzz")
         ],
         [
             InlineKeyboardButton(
@@ -149,8 +148,7 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="+ ᴘʟᴀʏʟɪsᴛ +", callback_data=f"add_playlist {videoid}"
             ),
-            InlineKeyboardButton('SUPPORT', "https://t.me/sharan113baaplogzz"
-            ),
+            InlineKeyboardButton('SUPPORT', "https://t.me/sharan113baaplogzz")
          ],
          [
             InlineKeyboardButton(
