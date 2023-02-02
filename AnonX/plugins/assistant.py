@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonX import  LOGGER, OWNER_ID, app, app2
+from AnonX import  LOGGER, SUDOERS, app, app2
 
 
 @app.on_message(filters.command(["asspfp", "setpfp"]) & SUDOERS)
