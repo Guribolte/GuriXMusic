@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonX import ASS_MENTION, LOGGER, SUDOERS, app, app2
+from AnonX import  LOGGER, OWNER_ID, app, app2
 
 
 @app.on_message(filters.command(["asspfp", "setpfp"]) & SUDOERS)
@@ -12,7 +12,7 @@ async def set_pfp(_, message: Message):
         try:
             await app2.set_profile_photo(photo=img)
             return await fuk.edit_text(
-                f"» {ASS_MENTION} ᴘʀᴏғɪʟᴇ ᴘɪᴄ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ."
+                f"»  ᴘʀᴏғɪʟᴇ ᴘɪᴄ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ."
             )
         except:
             return await fuk.edit_text("» ғᴀɪʟᴇᴅ ᴛᴏ ᴄʜᴀɴɢᴇ ᴀssɪsᴛᴀɴᴛ's ᴘʀᴏғɪʟᴇ ᴘɪᴄ.")
@@ -43,12 +43,12 @@ async def set_bio(_, message: Message):
             newbio = msg.text
             await app2.update_profile(bio=newbio)
             return await message.reply_text(
-                f"» {ASS_MENTION} ʙɪᴏ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ."
+                f"»  ʙɪᴏ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ."
             )
     elif len(message.command) != 1:
         newbio = message.text.split(None, 1)[1]
         await app2.update_profile(bio=newbio)
-        return await message.reply_text(f"» {ASS_MENTION} ʙɪᴏ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.")
+        return await message.reply_text(f"»  ʙɪᴏ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.")
     else:
         return await message.reply_text(
             "» ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴛ ɪᴛ ᴀs ᴀssɪsᴛᴀɴᴛ's ʙɪᴏ."
@@ -63,12 +63,12 @@ async def set_name(_, message: Message):
             name = msg.text
             await app2.update_profile(first_name=name)
             return await message.reply_text(
-                f"» {ASS_MENTION} ɴᴀᴍᴇ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ."
+                f"»  ɴᴀᴍᴇ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ."
             )
     elif len(message.command) != 1:
         name = message.text.split(None, 1)[1]
         await app2.update_profile(first_name=name, last_name="")
-        return await message.reply_text(f"» {ASS_MENTION} ɴᴀᴍᴇ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.")
+        return await message.reply_text(f"»  ɴᴀᴍᴇ ᴄʜᴀɴɢᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.")
     else:
         return await message.reply_text(
             "» ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴛ ɪᴛ ᴀs ᴀssɪsᴛᴀɴᴛ's ɴᴇᴡ ɴᴀᴍᴇ."
