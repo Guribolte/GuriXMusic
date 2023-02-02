@@ -1,8 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonX import  LOGGER, SUDOERS, app, app2
-
 
 @app.on_message(filters.command(["asspfp", "setpfp"]) & SUDOERS)
 async def set_pfp(_, message: Message):
