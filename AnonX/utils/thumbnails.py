@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from unidecode import unidecode
 from youtubesearchpython.__future__ import VideosSearch
 
-from AnonXMusic import app
+from GuriXMusic import app
 from config import YOUTUBE_IMG_URL
 
 
